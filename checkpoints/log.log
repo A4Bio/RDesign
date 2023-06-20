@@ -1,0 +1,629 @@
+2023-06-20 15:29:49,427 - 
+device: 	cuda	
+display_step: 	10	
+res_dir: 	./results	
+ex_name: 	ex_s222	
+use_gpu: 	True	
+gpu: 	0	
+seed: 	222	
+data_root: 	./data/RNAsolo/	
+batch_size: 	64	
+num_workers: 	0	
+epoch: 	200	
+log_step: 	1	
+lr: 	0.001	
+node_feat_types: 	['angle', 'distance', 'direction']	
+edge_feat_types: 	['orientation', 'distance', 'direction']	
+num_encoder_layers: 	3	
+num_decoder_layers: 	3	
+hidden: 	128	
+k_neighbors: 	30	
+vocab_size: 	4	
+shuffle: 	0.0	
+dropout: 	0.1	
+smoothing: 	0.1	
+weigth_clu_con: 	0.5	
+weigth_sam_con: 	0.5	
+ss_temp: 	0.5	
+2023-06-20 15:29:57,636 - Valid Perp: 4.0113
+2023-06-20 15:29:57,637 - Epoch: 1, Steps: 28 | Train Loss: 1.4974 Train Perp: 4.4698 Valid Loss: 1.3891 Valid Perp: 4.0113
+
+2023-06-20 15:30:04,766 - Valid Perp: 3.9455
+2023-06-20 15:30:04,767 - Epoch: 2, Steps: 28 | Train Loss: 1.4208 Train Perp: 4.1403 Valid Loss: 1.3726 Valid Perp: 3.9455
+
+2023-06-20 15:30:11,776 - Valid Perp: 3.9391
+2023-06-20 15:30:11,777 - Epoch: 3, Steps: 28 | Train Loss: 1.4045 Train Perp: 4.0737 Valid Loss: 1.3709 Valid Perp: 3.9391
+
+2023-06-20 15:30:18,706 - Valid Perp: 3.9543
+2023-06-20 15:30:18,707 - Epoch: 4, Steps: 28 | Train Loss: 1.3948 Train Perp: 4.0342 Valid Loss: 1.3748 Valid Perp: 3.9543
+
+2023-06-20 15:30:25,780 - Valid Perp: 3.9102
+2023-06-20 15:30:25,780 - Epoch: 5, Steps: 28 | Train Loss: 1.3874 Train Perp: 4.0043 Valid Loss: 1.3636 Valid Perp: 3.9102
+
+2023-06-20 15:30:33,073 - Valid Perp: 3.9071
+2023-06-20 15:30:33,073 - Epoch: 6, Steps: 28 | Train Loss: 1.3831 Train Perp: 3.9871 Valid Loss: 1.3628 Valid Perp: 3.9071
+
+2023-06-20 15:30:40,128 - Valid Perp: 3.8964
+2023-06-20 15:30:40,128 - Epoch: 7, Steps: 28 | Train Loss: 1.3782 Train Perp: 3.9677 Valid Loss: 1.3601 Valid Perp: 3.8964
+
+2023-06-20 15:30:47,058 - Valid Perp: 3.8791
+2023-06-20 15:30:47,059 - Epoch: 8, Steps: 28 | Train Loss: 1.3734 Train Perp: 3.9488 Valid Loss: 1.3556 Valid Perp: 3.8791
+
+2023-06-20 15:30:54,146 - Valid Perp: 3.9207
+2023-06-20 15:30:54,146 - Epoch: 9, Steps: 28 | Train Loss: 1.3713 Train Perp: 3.9406 Valid Loss: 1.3663 Valid Perp: 3.9207
+
+2023-06-20 15:31:01,522 - Valid Perp: 3.8854
+2023-06-20 15:31:01,522 - Epoch: 10, Steps: 28 | Train Loss: 1.3665 Train Perp: 3.9216 Valid Loss: 1.3572 Valid Perp: 3.8854
+
+2023-06-20 15:31:08,773 - Valid Perp: 3.8997
+2023-06-20 15:31:08,773 - Epoch: 11, Steps: 28 | Train Loss: 1.3627 Train Perp: 3.9067 Valid Loss: 1.3609 Valid Perp: 3.8997
+
+2023-06-20 15:31:15,739 - Valid Perp: 3.8739
+2023-06-20 15:31:15,740 - Epoch: 12, Steps: 28 | Train Loss: 1.3597 Train Perp: 3.8952 Valid Loss: 1.3543 Valid Perp: 3.8739
+
+2023-06-20 15:31:23,119 - Valid Perp: 3.8685
+2023-06-20 15:31:23,120 - Epoch: 13, Steps: 28 | Train Loss: 1.3574 Train Perp: 3.8860 Valid Loss: 1.3529 Valid Perp: 3.8685
+
+2023-06-20 15:31:30,168 - Valid Perp: 3.9257
+2023-06-20 15:31:30,169 - Epoch: 14, Steps: 28 | Train Loss: 1.3575 Train Perp: 3.8864 Valid Loss: 1.3675 Valid Perp: 3.9257
+
+2023-06-20 15:31:37,169 - Valid Perp: 3.8501
+2023-06-20 15:31:37,170 - Epoch: 15, Steps: 28 | Train Loss: 1.3525 Train Perp: 3.8669 Valid Loss: 1.3481 Valid Perp: 3.8501
+
+2023-06-20 15:31:44,152 - Valid Perp: 3.8653
+2023-06-20 15:31:44,153 - Epoch: 16, Steps: 28 | Train Loss: 1.3493 Train Perp: 3.8545 Valid Loss: 1.3520 Valid Perp: 3.8653
+
+2023-06-20 15:31:51,238 - Valid Perp: 3.8830
+2023-06-20 15:31:51,238 - Epoch: 17, Steps: 28 | Train Loss: 1.3530 Train Perp: 3.8688 Valid Loss: 1.3566 Valid Perp: 3.8830
+
+2023-06-20 15:31:58,402 - Valid Perp: 3.8601
+2023-06-20 15:31:58,402 - Epoch: 18, Steps: 28 | Train Loss: 1.3427 Train Perp: 3.8292 Valid Loss: 1.3507 Valid Perp: 3.8601
+
+2023-06-20 15:32:05,614 - Valid Perp: 3.8824
+2023-06-20 15:32:05,615 - Epoch: 19, Steps: 28 | Train Loss: 1.3415 Train Perp: 3.8248 Valid Loss: 1.3565 Valid Perp: 3.8824
+
+2023-06-20 15:32:12,764 - Valid Perp: 3.8298
+2023-06-20 15:32:12,765 - Epoch: 20, Steps: 28 | Train Loss: 1.3354 Train Perp: 3.8016 Valid Loss: 1.3428 Valid Perp: 3.8298
+
+2023-06-20 15:32:19,808 - Valid Perp: 3.8412
+2023-06-20 15:32:19,808 - Epoch: 21, Steps: 28 | Train Loss: 1.3299 Train Perp: 3.7806 Valid Loss: 1.3458 Valid Perp: 3.8412
+
+2023-06-20 15:32:26,933 - Valid Perp: 3.8222
+2023-06-20 15:32:26,935 - Epoch: 22, Steps: 28 | Train Loss: 1.3282 Train Perp: 3.7741 Valid Loss: 1.3408 Valid Perp: 3.8222
+
+2023-06-20 15:32:34,110 - Valid Perp: 3.8284
+2023-06-20 15:32:34,111 - Epoch: 23, Steps: 28 | Train Loss: 1.3172 Train Perp: 3.7331 Valid Loss: 1.3424 Valid Perp: 3.8284
+
+2023-06-20 15:32:41,229 - Valid Perp: 3.7813
+2023-06-20 15:32:41,229 - Epoch: 24, Steps: 28 | Train Loss: 1.3167 Train Perp: 3.7310 Valid Loss: 1.3301 Valid Perp: 3.7813
+
+2023-06-20 15:32:48,673 - Valid Perp: 3.8567
+2023-06-20 15:32:48,673 - Epoch: 25, Steps: 28 | Train Loss: 1.3071 Train Perp: 3.6955 Valid Loss: 1.3498 Valid Perp: 3.8567
+
+2023-06-20 15:32:55,755 - Valid Perp: 3.8285
+2023-06-20 15:32:55,755 - Epoch: 26, Steps: 28 | Train Loss: 1.3056 Train Perp: 3.6900 Valid Loss: 1.3425 Valid Perp: 3.8285
+
+2023-06-20 15:33:02,858 - Valid Perp: 3.7847
+2023-06-20 15:33:02,861 - Epoch: 27, Steps: 28 | Train Loss: 1.2987 Train Perp: 3.6646 Valid Loss: 1.3310 Valid Perp: 3.7847
+
+2023-06-20 15:33:10,345 - Valid Perp: 3.7935
+2023-06-20 15:33:10,346 - Epoch: 28, Steps: 28 | Train Loss: 1.2908 Train Perp: 3.6358 Valid Loss: 1.3333 Valid Perp: 3.7935
+
+2023-06-20 15:33:17,530 - Valid Perp: 3.8046
+2023-06-20 15:33:17,530 - Epoch: 29, Steps: 28 | Train Loss: 1.2934 Train Perp: 3.6450 Valid Loss: 1.3362 Valid Perp: 3.8046
+
+2023-06-20 15:33:24,518 - Valid Perp: 3.7515
+2023-06-20 15:33:24,518 - Epoch: 30, Steps: 28 | Train Loss: 1.2806 Train Perp: 3.5989 Valid Loss: 1.3222 Valid Perp: 3.7515
+
+2023-06-20 15:33:31,621 - Valid Perp: 3.8508
+2023-06-20 15:33:31,622 - Epoch: 31, Steps: 28 | Train Loss: 1.2747 Train Perp: 3.5775 Valid Loss: 1.3483 Valid Perp: 3.8508
+
+2023-06-20 15:33:38,945 - Valid Perp: 3.7500
+2023-06-20 15:33:38,945 - Epoch: 32, Steps: 28 | Train Loss: 1.2747 Train Perp: 3.5777 Valid Loss: 1.3217 Valid Perp: 3.7500
+
+2023-06-20 15:33:45,736 - Valid Perp: 3.7523
+2023-06-20 15:33:45,739 - Epoch: 33, Steps: 28 | Train Loss: 1.2811 Train Perp: 3.6007 Valid Loss: 1.3224 Valid Perp: 3.7523
+
+2023-06-20 15:33:52,817 - Valid Perp: 3.8763
+2023-06-20 15:33:52,818 - Epoch: 34, Steps: 28 | Train Loss: 1.2600 Train Perp: 3.5256 Valid Loss: 1.3549 Valid Perp: 3.8763
+
+2023-06-20 15:33:59,976 - Valid Perp: 3.8470
+2023-06-20 15:33:59,978 - Epoch: 35, Steps: 28 | Train Loss: 1.2564 Train Perp: 3.5128 Valid Loss: 1.3473 Valid Perp: 3.8470
+
+2023-06-20 15:34:07,293 - Valid Perp: 3.7222
+2023-06-20 15:34:07,296 - Epoch: 36, Steps: 28 | Train Loss: 1.2521 Train Perp: 3.4976 Valid Loss: 1.3143 Valid Perp: 3.7222
+
+2023-06-20 15:34:14,577 - Valid Perp: 3.7631
+2023-06-20 15:34:14,578 - Epoch: 37, Steps: 28 | Train Loss: 1.2449 Train Perp: 3.4724 Valid Loss: 1.3252 Valid Perp: 3.7631
+
+2023-06-20 15:34:21,478 - Valid Perp: 3.7425
+2023-06-20 15:34:21,479 - Epoch: 38, Steps: 28 | Train Loss: 1.2273 Train Perp: 3.4121 Valid Loss: 1.3197 Valid Perp: 3.7425
+
+2023-06-20 15:34:28,433 - Valid Perp: 3.7482
+2023-06-20 15:34:28,433 - Epoch: 39, Steps: 28 | Train Loss: 1.2227 Train Perp: 3.3965 Valid Loss: 1.3213 Valid Perp: 3.7482
+
+2023-06-20 15:34:35,560 - Valid Perp: 3.7572
+2023-06-20 15:34:35,560 - Epoch: 40, Steps: 28 | Train Loss: 1.2219 Train Perp: 3.3937 Valid Loss: 1.3237 Valid Perp: 3.7572
+
+2023-06-20 15:34:42,911 - Valid Perp: 3.7585
+2023-06-20 15:34:42,911 - Epoch: 41, Steps: 28 | Train Loss: 1.2129 Train Perp: 3.3632 Valid Loss: 1.3240 Valid Perp: 3.7585
+
+2023-06-20 15:34:49,896 - Valid Perp: 3.6944
+2023-06-20 15:34:49,896 - Epoch: 42, Steps: 28 | Train Loss: 1.1992 Train Perp: 3.3176 Valid Loss: 1.3068 Valid Perp: 3.6944
+
+2023-06-20 15:34:57,023 - Valid Perp: 3.6606
+2023-06-20 15:34:57,023 - Epoch: 43, Steps: 28 | Train Loss: 1.2014 Train Perp: 3.3246 Valid Loss: 1.2976 Valid Perp: 3.6606
+
+2023-06-20 15:35:04,129 - Valid Perp: 3.6818
+2023-06-20 15:35:04,130 - Epoch: 44, Steps: 28 | Train Loss: 1.1831 Train Perp: 3.2646 Valid Loss: 1.3034 Valid Perp: 3.6818
+
+2023-06-20 15:35:11,247 - Valid Perp: 3.6219
+2023-06-20 15:35:11,248 - Epoch: 45, Steps: 28 | Train Loss: 1.1846 Train Perp: 3.2695 Valid Loss: 1.2870 Valid Perp: 3.6219
+
+2023-06-20 15:35:18,702 - Valid Perp: 3.6168
+2023-06-20 15:35:18,702 - Epoch: 46, Steps: 28 | Train Loss: 1.1805 Train Perp: 3.2559 Valid Loss: 1.2856 Valid Perp: 3.6168
+
+2023-06-20 15:35:26,375 - Valid Perp: 3.6597
+2023-06-20 15:35:26,376 - Epoch: 47, Steps: 28 | Train Loss: 1.1685 Train Perp: 3.2173 Valid Loss: 1.2974 Valid Perp: 3.6597
+
+2023-06-20 15:35:33,761 - Valid Perp: 3.6778
+2023-06-20 15:35:33,762 - Epoch: 48, Steps: 28 | Train Loss: 1.1651 Train Perp: 3.2064 Valid Loss: 1.3023 Valid Perp: 3.6778
+
+2023-06-20 15:35:40,858 - Valid Perp: 3.6490
+2023-06-20 15:35:40,859 - Epoch: 49, Steps: 28 | Train Loss: 1.1465 Train Perp: 3.1471 Valid Loss: 1.2944 Valid Perp: 3.6490
+
+2023-06-20 15:35:48,121 - Valid Perp: 3.5758
+2023-06-20 15:35:48,121 - Epoch: 50, Steps: 28 | Train Loss: 1.1444 Train Perp: 3.1406 Valid Loss: 1.2742 Valid Perp: 3.5758
+
+2023-06-20 15:35:55,150 - Valid Perp: 3.6223
+2023-06-20 15:35:55,151 - Epoch: 51, Steps: 28 | Train Loss: 1.1263 Train Perp: 3.0842 Valid Loss: 1.2871 Valid Perp: 3.6223
+
+2023-06-20 15:36:02,124 - Valid Perp: 3.5903
+2023-06-20 15:36:02,125 - Epoch: 52, Steps: 28 | Train Loss: 1.1265 Train Perp: 3.0847 Valid Loss: 1.2782 Valid Perp: 3.5903
+
+2023-06-20 15:36:09,138 - Valid Perp: 3.6537
+2023-06-20 15:36:09,138 - Epoch: 53, Steps: 28 | Train Loss: 1.1274 Train Perp: 3.0877 Valid Loss: 1.2957 Valid Perp: 3.6537
+
+2023-06-20 15:36:16,099 - Valid Perp: 3.5999
+2023-06-20 15:36:16,100 - Epoch: 54, Steps: 28 | Train Loss: 1.1027 Train Perp: 3.0124 Valid Loss: 1.2809 Valid Perp: 3.5999
+
+2023-06-20 15:36:23,082 - Valid Perp: 3.6385
+2023-06-20 15:36:23,082 - Epoch: 55, Steps: 28 | Train Loss: 1.0971 Train Perp: 2.9955 Valid Loss: 1.2916 Valid Perp: 3.6385
+
+2023-06-20 15:36:30,082 - Valid Perp: 3.6014
+2023-06-20 15:36:30,082 - Epoch: 56, Steps: 28 | Train Loss: 1.0858 Train Perp: 2.9619 Valid Loss: 1.2813 Valid Perp: 3.6014
+
+2023-06-20 15:36:36,928 - Valid Perp: 3.6744
+2023-06-20 15:36:36,931 - Epoch: 57, Steps: 28 | Train Loss: 1.0695 Train Perp: 2.9139 Valid Loss: 1.3014 Valid Perp: 3.6744
+
+2023-06-20 15:36:43,965 - Valid Perp: 3.6513
+2023-06-20 15:36:43,965 - Epoch: 58, Steps: 28 | Train Loss: 1.0569 Train Perp: 2.8775 Valid Loss: 1.2951 Valid Perp: 3.6513
+
+2023-06-20 15:36:51,334 - Valid Perp: 3.6804
+2023-06-20 15:36:51,335 - Epoch: 59, Steps: 28 | Train Loss: 1.0435 Train Perp: 2.8392 Valid Loss: 1.3030 Valid Perp: 3.6804
+
+2023-06-20 15:36:58,474 - Valid Perp: 3.6399
+2023-06-20 15:36:58,475 - Epoch: 60, Steps: 28 | Train Loss: 1.0363 Train Perp: 2.8186 Valid Loss: 1.2920 Valid Perp: 3.6399
+
+2023-06-20 15:37:05,383 - Valid Perp: 3.6939
+2023-06-20 15:37:05,383 - Epoch: 61, Steps: 28 | Train Loss: 1.0332 Train Perp: 2.8099 Valid Loss: 1.3067 Valid Perp: 3.6939
+
+2023-06-20 15:37:12,638 - Valid Perp: 3.6957
+2023-06-20 15:37:12,641 - Epoch: 62, Steps: 28 | Train Loss: 1.0134 Train Perp: 2.7550 Valid Loss: 1.3072 Valid Perp: 3.6957
+
+2023-06-20 15:37:19,773 - Valid Perp: 3.7866
+2023-06-20 15:37:19,773 - Epoch: 63, Steps: 28 | Train Loss: 0.9997 Train Perp: 2.7174 Valid Loss: 1.3315 Valid Perp: 3.7866
+
+2023-06-20 15:37:26,782 - Valid Perp: 3.6891
+2023-06-20 15:37:26,782 - Epoch: 64, Steps: 28 | Train Loss: 0.9950 Train Perp: 2.7048 Valid Loss: 1.3054 Valid Perp: 3.6891
+
+2023-06-20 15:37:33,756 - Valid Perp: 3.6879
+2023-06-20 15:37:33,757 - Epoch: 65, Steps: 28 | Train Loss: 0.9658 Train Perp: 2.6269 Valid Loss: 1.3051 Valid Perp: 3.6879
+
+2023-06-20 15:37:40,720 - Valid Perp: 3.8919
+2023-06-20 15:37:40,720 - Epoch: 66, Steps: 28 | Train Loss: 0.9605 Train Perp: 2.6130 Valid Loss: 1.3589 Valid Perp: 3.8919
+
+2023-06-20 15:37:47,697 - Valid Perp: 3.8482
+2023-06-20 15:37:47,698 - Epoch: 67, Steps: 28 | Train Loss: 0.9282 Train Perp: 2.5299 Valid Loss: 1.3476 Valid Perp: 3.8482
+
+2023-06-20 15:37:54,788 - Valid Perp: 3.8788
+2023-06-20 15:37:54,789 - Epoch: 68, Steps: 28 | Train Loss: 0.9195 Train Perp: 2.5081 Valid Loss: 1.3555 Valid Perp: 3.8788
+
+2023-06-20 15:38:01,812 - Valid Perp: 3.8352
+2023-06-20 15:38:01,813 - Epoch: 69, Steps: 28 | Train Loss: 0.9152 Train Perp: 2.4973 Valid Loss: 1.3442 Valid Perp: 3.8352
+
+2023-06-20 15:38:09,008 - Valid Perp: 3.8573
+2023-06-20 15:38:09,008 - Epoch: 70, Steps: 28 | Train Loss: 0.8844 Train Perp: 2.4215 Valid Loss: 1.3500 Valid Perp: 3.8573
+
+2023-06-20 15:38:16,200 - Valid Perp: 3.8358
+2023-06-20 15:38:16,200 - Epoch: 71, Steps: 28 | Train Loss: 0.8649 Train Perp: 2.3748 Valid Loss: 1.3444 Valid Perp: 3.8358
+
+2023-06-20 15:38:23,614 - Valid Perp: 3.9688
+2023-06-20 15:38:23,615 - Epoch: 72, Steps: 28 | Train Loss: 0.8429 Train Perp: 2.3230 Valid Loss: 1.3785 Valid Perp: 3.9688
+
+2023-06-20 15:38:30,863 - Valid Perp: 3.9993
+2023-06-20 15:38:30,865 - Epoch: 73, Steps: 28 | Train Loss: 0.8225 Train Perp: 2.2763 Valid Loss: 1.3861 Valid Perp: 3.9993
+
+2023-06-20 15:38:38,109 - Valid Perp: 4.1163
+2023-06-20 15:38:38,110 - Epoch: 74, Steps: 28 | Train Loss: 0.8114 Train Perp: 2.2511 Valid Loss: 1.4149 Valid Perp: 4.1163
+
+2023-06-20 15:38:44,987 - Valid Perp: 4.0428
+2023-06-20 15:38:44,988 - Epoch: 75, Steps: 28 | Train Loss: 0.7918 Train Perp: 2.2075 Valid Loss: 1.3969 Valid Perp: 4.0428
+
+2023-06-20 15:38:52,030 - Valid Perp: 4.1999
+2023-06-20 15:38:52,033 - Epoch: 76, Steps: 28 | Train Loss: 0.7829 Train Perp: 2.1878 Valid Loss: 1.4351 Valid Perp: 4.1999
+
+2023-06-20 15:38:59,064 - Valid Perp: 4.0748
+2023-06-20 15:38:59,065 - Epoch: 77, Steps: 28 | Train Loss: 0.7645 Train Perp: 2.1478 Valid Loss: 1.4048 Valid Perp: 4.0748
+
+2023-06-20 15:39:06,050 - Valid Perp: 4.2477
+2023-06-20 15:39:06,050 - Epoch: 78, Steps: 28 | Train Loss: 0.7475 Train Perp: 2.1117 Valid Loss: 1.4464 Valid Perp: 4.2477
+
+2023-06-20 15:39:13,237 - Valid Perp: 4.2654
+2023-06-20 15:39:13,238 - Epoch: 79, Steps: 28 | Train Loss: 0.7315 Train Perp: 2.0782 Valid Loss: 1.4505 Valid Perp: 4.2654
+
+2023-06-20 15:39:20,257 - Valid Perp: 4.4625
+2023-06-20 15:39:20,257 - Epoch: 80, Steps: 28 | Train Loss: 0.7080 Train Perp: 2.0299 Valid Loss: 1.4957 Valid Perp: 4.4625
+
+2023-06-20 15:39:27,197 - Valid Perp: 4.3577
+2023-06-20 15:39:27,197 - Epoch: 81, Steps: 28 | Train Loss: 0.7009 Train Perp: 2.0155 Valid Loss: 1.4719 Valid Perp: 4.3577
+
+2023-06-20 15:39:34,432 - Valid Perp: 4.3383
+2023-06-20 15:39:34,432 - Epoch: 82, Steps: 28 | Train Loss: 0.6853 Train Perp: 1.9845 Valid Loss: 1.4675 Valid Perp: 4.3383
+
+2023-06-20 15:39:41,716 - Valid Perp: 4.6709
+2023-06-20 15:39:41,716 - Epoch: 83, Steps: 28 | Train Loss: 0.6593 Train Perp: 1.9334 Valid Loss: 1.5413 Valid Perp: 4.6709
+
+2023-06-20 15:39:48,744 - Valid Perp: 4.7931
+2023-06-20 15:39:48,747 - Epoch: 84, Steps: 28 | Train Loss: 0.6481 Train Perp: 1.9119 Valid Loss: 1.5672 Valid Perp: 4.7931
+
+2023-06-20 15:39:55,787 - Valid Perp: 4.7067
+2023-06-20 15:39:55,787 - Epoch: 85, Steps: 28 | Train Loss: 0.6306 Train Perp: 1.8787 Valid Loss: 1.5490 Valid Perp: 4.7067
+
+2023-06-20 15:40:02,776 - Valid Perp: 4.7553
+2023-06-20 15:40:02,776 - Epoch: 86, Steps: 28 | Train Loss: 0.6132 Train Perp: 1.8464 Valid Loss: 1.5593 Valid Perp: 4.7553
+
+2023-06-20 15:40:09,774 - Valid Perp: 4.4594
+2023-06-20 15:40:09,776 - Epoch: 87, Steps: 28 | Train Loss: 0.6030 Train Perp: 1.8276 Valid Loss: 1.4950 Valid Perp: 4.4594
+
+2023-06-20 15:40:16,875 - Valid Perp: 4.7817
+2023-06-20 15:40:16,876 - Epoch: 88, Steps: 28 | Train Loss: 0.5928 Train Perp: 1.8091 Valid Loss: 1.5648 Valid Perp: 4.7817
+
+2023-06-20 15:40:23,885 - Valid Perp: 5.0242
+2023-06-20 15:40:23,886 - Epoch: 89, Steps: 28 | Train Loss: 0.5765 Train Perp: 1.7797 Valid Loss: 1.6143 Valid Perp: 5.0242
+
+2023-06-20 15:40:31,086 - Valid Perp: 4.7411
+2023-06-20 15:40:31,087 - Epoch: 90, Steps: 28 | Train Loss: 0.5648 Train Perp: 1.7591 Valid Loss: 1.5563 Valid Perp: 4.7411
+
+2023-06-20 15:40:37,972 - Valid Perp: 5.4589
+2023-06-20 15:40:37,972 - Epoch: 91, Steps: 28 | Train Loss: 0.5430 Train Perp: 1.7211 Valid Loss: 1.6972 Valid Perp: 5.4589
+
+2023-06-20 15:40:45,181 - Valid Perp: 5.3676
+2023-06-20 15:40:45,181 - Epoch: 92, Steps: 28 | Train Loss: 0.5305 Train Perp: 1.6999 Valid Loss: 1.6804 Valid Perp: 5.3676
+
+2023-06-20 15:40:52,086 - Valid Perp: 5.4124
+2023-06-20 15:40:52,086 - Epoch: 93, Steps: 28 | Train Loss: 0.5113 Train Perp: 1.6674 Valid Loss: 1.6887 Valid Perp: 5.4124
+
+2023-06-20 15:40:59,098 - Valid Perp: 5.2817
+2023-06-20 15:40:59,098 - Epoch: 94, Steps: 28 | Train Loss: 0.5003 Train Perp: 1.6492 Valid Loss: 1.6643 Valid Perp: 5.2817
+
+2023-06-20 15:41:06,173 - Valid Perp: 5.2428
+2023-06-20 15:41:06,173 - Epoch: 95, Steps: 28 | Train Loss: 0.5009 Train Perp: 1.6502 Valid Loss: 1.6569 Valid Perp: 5.2428
+
+2023-06-20 15:41:13,364 - Valid Perp: 5.3867
+2023-06-20 15:41:13,365 - Epoch: 96, Steps: 28 | Train Loss: 0.4704 Train Perp: 1.6006 Valid Loss: 1.6839 Valid Perp: 5.3867
+
+2023-06-20 15:41:20,485 - Valid Perp: 5.2434
+2023-06-20 15:41:20,486 - Epoch: 97, Steps: 28 | Train Loss: 0.4613 Train Perp: 1.5861 Valid Loss: 1.6570 Valid Perp: 5.2434
+
+2023-06-20 15:41:27,413 - Valid Perp: 6.2728
+2023-06-20 15:41:27,413 - Epoch: 98, Steps: 28 | Train Loss: 0.4517 Train Perp: 1.5709 Valid Loss: 1.8362 Valid Perp: 6.2728
+
+2023-06-20 15:41:34,438 - Valid Perp: 6.0197
+2023-06-20 15:41:34,438 - Epoch: 99, Steps: 28 | Train Loss: 0.4382 Train Perp: 1.5500 Valid Loss: 1.7950 Valid Perp: 6.0197
+
+2023-06-20 15:41:41,550 - Valid Perp: 5.4782
+2023-06-20 15:41:41,551 - Epoch: 100, Steps: 28 | Train Loss: 0.4258 Train Perp: 1.5309 Valid Loss: 1.7008 Valid Perp: 5.4782
+
+2023-06-20 15:41:48,692 - Valid Perp: 5.9376
+2023-06-20 15:41:48,748 - Epoch: 101, Steps: 28 | Train Loss: 0.4161 Train Perp: 1.5161 Valid Loss: 1.7813 Valid Perp: 5.9376
+
+2023-06-20 15:41:55,896 - Valid Perp: 5.8198
+2023-06-20 15:41:55,896 - Epoch: 102, Steps: 28 | Train Loss: 0.4141 Train Perp: 1.5130 Valid Loss: 1.7613 Valid Perp: 5.8198
+
+2023-06-20 15:42:02,769 - Valid Perp: 6.2861
+2023-06-20 15:42:02,770 - Epoch: 103, Steps: 28 | Train Loss: 0.3991 Train Perp: 1.4905 Valid Loss: 1.8383 Valid Perp: 6.2861
+
+2023-06-20 15:42:09,769 - Valid Perp: 5.7898
+2023-06-20 15:42:09,770 - Epoch: 104, Steps: 28 | Train Loss: 0.3843 Train Perp: 1.4686 Valid Loss: 1.7561 Valid Perp: 5.7898
+
+2023-06-20 15:42:16,695 - Valid Perp: 5.8168
+2023-06-20 15:42:16,695 - Epoch: 105, Steps: 28 | Train Loss: 0.3816 Train Perp: 1.4646 Valid Loss: 1.7608 Valid Perp: 5.8168
+
+2023-06-20 15:42:23,870 - Valid Perp: 5.9182
+2023-06-20 15:42:23,870 - Epoch: 106, Steps: 28 | Train Loss: 0.3614 Train Perp: 1.4353 Valid Loss: 1.7780 Valid Perp: 5.9182
+
+2023-06-20 15:42:31,027 - Valid Perp: 7.7883
+2023-06-20 15:42:31,027 - Epoch: 107, Steps: 28 | Train Loss: 0.3630 Train Perp: 1.4376 Valid Loss: 2.0526 Valid Perp: 7.7883
+
+2023-06-20 15:42:38,165 - Valid Perp: 6.4514
+2023-06-20 15:42:38,166 - Epoch: 108, Steps: 28 | Train Loss: 0.3520 Train Perp: 1.4219 Valid Loss: 1.8643 Valid Perp: 6.4514
+
+2023-06-20 15:42:45,418 - Valid Perp: 6.6854
+2023-06-20 15:42:45,419 - Epoch: 109, Steps: 28 | Train Loss: 0.3383 Train Perp: 1.4025 Valid Loss: 1.8999 Valid Perp: 6.6854
+
+2023-06-20 15:42:52,971 - Valid Perp: 8.2627
+2023-06-20 15:42:52,971 - Epoch: 110, Steps: 28 | Train Loss: 0.3289 Train Perp: 1.3895 Valid Loss: 2.1117 Valid Perp: 8.2627
+
+2023-06-20 15:42:59,902 - Valid Perp: 7.0740
+2023-06-20 15:42:59,902 - Epoch: 111, Steps: 28 | Train Loss: 0.3275 Train Perp: 1.3876 Valid Loss: 1.9564 Valid Perp: 7.0740
+
+2023-06-20 15:43:06,875 - Valid Perp: 7.1661
+2023-06-20 15:43:06,877 - Epoch: 112, Steps: 28 | Train Loss: 0.3048 Train Perp: 1.3563 Valid Loss: 1.9694 Valid Perp: 7.1661
+
+2023-06-20 15:43:13,851 - Valid Perp: 7.2806
+2023-06-20 15:43:13,852 - Epoch: 113, Steps: 28 | Train Loss: 0.3099 Train Perp: 1.3633 Valid Loss: 1.9852 Valid Perp: 7.2806
+
+2023-06-20 15:43:20,877 - Valid Perp: 7.6165
+2023-06-20 15:43:20,877 - Epoch: 114, Steps: 28 | Train Loss: 0.3000 Train Perp: 1.3498 Valid Loss: 2.0303 Valid Perp: 7.6165
+
+2023-06-20 15:43:28,245 - Valid Perp: 7.2235
+2023-06-20 15:43:28,245 - Epoch: 115, Steps: 28 | Train Loss: 0.2952 Train Perp: 1.3434 Valid Loss: 1.9773 Valid Perp: 7.2235
+
+2023-06-20 15:43:35,430 - Valid Perp: 7.4002
+2023-06-20 15:43:35,430 - Epoch: 116, Steps: 28 | Train Loss: 0.2968 Train Perp: 1.3455 Valid Loss: 2.0015 Valid Perp: 7.4002
+
+2023-06-20 15:43:42,502 - Valid Perp: 8.0922
+2023-06-20 15:43:42,502 - Epoch: 117, Steps: 28 | Train Loss: 0.2821 Train Perp: 1.3260 Valid Loss: 2.0909 Valid Perp: 8.0922
+
+2023-06-20 15:43:49,444 - Valid Perp: 6.2877
+2023-06-20 15:43:49,445 - Epoch: 118, Steps: 28 | Train Loss: 0.2637 Train Perp: 1.3018 Valid Loss: 1.8386 Valid Perp: 6.2877
+
+2023-06-20 15:43:56,562 - Valid Perp: 7.9754
+2023-06-20 15:43:56,562 - Epoch: 119, Steps: 28 | Train Loss: 0.2585 Train Perp: 1.2950 Valid Loss: 2.0764 Valid Perp: 7.9754
+
+2023-06-20 15:44:03,557 - Valid Perp: 7.9007
+2023-06-20 15:44:03,558 - Epoch: 120, Steps: 28 | Train Loss: 0.2580 Train Perp: 1.2943 Valid Loss: 2.0669 Valid Perp: 7.9007
+
+2023-06-20 15:44:10,645 - Valid Perp: 10.4021
+2023-06-20 15:44:10,647 - Epoch: 121, Steps: 28 | Train Loss: 0.2464 Train Perp: 1.2794 Valid Loss: 2.3420 Valid Perp: 10.4021
+
+2023-06-20 15:44:17,777 - Valid Perp: 9.2737
+2023-06-20 15:44:17,778 - Epoch: 122, Steps: 28 | Train Loss: 0.2454 Train Perp: 1.2781 Valid Loss: 2.2272 Valid Perp: 9.2737
+
+2023-06-20 15:44:24,932 - Valid Perp: 7.7123
+2023-06-20 15:44:24,935 - Epoch: 123, Steps: 28 | Train Loss: 0.2330 Train Perp: 1.2624 Valid Loss: 2.0428 Valid Perp: 7.7123
+
+2023-06-20 15:44:31,902 - Valid Perp: 10.4214
+2023-06-20 15:44:31,905 - Epoch: 124, Steps: 28 | Train Loss: 0.2322 Train Perp: 1.2613 Valid Loss: 2.3439 Valid Perp: 10.4214
+
+2023-06-20 15:44:39,033 - Valid Perp: 9.4715
+2023-06-20 15:44:39,034 - Epoch: 125, Steps: 28 | Train Loss: 0.2211 Train Perp: 1.2474 Valid Loss: 2.2483 Valid Perp: 9.4715
+
+2023-06-20 15:44:45,985 - Valid Perp: 9.4634
+2023-06-20 15:44:45,987 - Epoch: 126, Steps: 28 | Train Loss: 0.2183 Train Perp: 1.2439 Valid Loss: 2.2474 Valid Perp: 9.4634
+
+2023-06-20 15:44:53,204 - Valid Perp: 9.6315
+2023-06-20 15:44:53,207 - Epoch: 127, Steps: 28 | Train Loss: 0.2089 Train Perp: 1.2323 Valid Loss: 2.2650 Valid Perp: 9.6315
+
+2023-06-20 15:45:00,324 - Valid Perp: 11.2635
+2023-06-20 15:45:00,324 - Epoch: 128, Steps: 28 | Train Loss: 0.2009 Train Perp: 1.2225 Valid Loss: 2.4216 Valid Perp: 11.2635
+
+2023-06-20 15:45:07,455 - Valid Perp: 11.4176
+2023-06-20 15:45:07,458 - Epoch: 129, Steps: 28 | Train Loss: 0.2023 Train Perp: 1.2242 Valid Loss: 2.4352 Valid Perp: 11.4176
+
+2023-06-20 15:45:14,509 - Valid Perp: 9.6132
+2023-06-20 15:45:14,510 - Epoch: 130, Steps: 28 | Train Loss: 0.1969 Train Perp: 1.2176 Valid Loss: 2.2631 Valid Perp: 9.6132
+
+2023-06-20 15:45:21,530 - Valid Perp: 8.3788
+2023-06-20 15:45:21,531 - Epoch: 131, Steps: 28 | Train Loss: 0.1857 Train Perp: 1.2041 Valid Loss: 2.1257 Valid Perp: 8.3788
+
+2023-06-20 15:45:28,651 - Valid Perp: 8.0204
+2023-06-20 15:45:28,654 - Epoch: 132, Steps: 28 | Train Loss: 0.1867 Train Perp: 1.2053 Valid Loss: 2.0820 Valid Perp: 8.0204
+
+2023-06-20 15:45:35,595 - Valid Perp: 10.9108
+2023-06-20 15:45:35,596 - Epoch: 133, Steps: 28 | Train Loss: 0.1796 Train Perp: 1.1968 Valid Loss: 2.3898 Valid Perp: 10.9108
+
+2023-06-20 15:45:42,661 - Valid Perp: 9.8892
+2023-06-20 15:45:42,661 - Epoch: 134, Steps: 28 | Train Loss: 0.1698 Train Perp: 1.1851 Valid Loss: 2.2914 Valid Perp: 9.8892
+
+2023-06-20 15:45:49,837 - Valid Perp: 11.9400
+2023-06-20 15:45:49,839 - Epoch: 135, Steps: 28 | Train Loss: 0.1650 Train Perp: 1.1794 Valid Loss: 2.4799 Valid Perp: 11.9400
+
+2023-06-20 15:45:56,844 - Valid Perp: 10.6555
+2023-06-20 15:45:56,845 - Epoch: 136, Steps: 28 | Train Loss: 0.1644 Train Perp: 1.1787 Valid Loss: 2.3661 Valid Perp: 10.6555
+
+2023-06-20 15:46:03,811 - Valid Perp: 9.8457
+2023-06-20 15:46:03,814 - Epoch: 137, Steps: 28 | Train Loss: 0.1631 Train Perp: 1.1771 Valid Loss: 2.2870 Valid Perp: 9.8457
+
+2023-06-20 15:46:10,698 - Valid Perp: 14.2152
+2023-06-20 15:46:10,698 - Epoch: 138, Steps: 28 | Train Loss: 0.1623 Train Perp: 1.1762 Valid Loss: 2.6543 Valid Perp: 14.2152
+
+2023-06-20 15:46:17,745 - Valid Perp: 13.4372
+2023-06-20 15:46:17,746 - Epoch: 139, Steps: 28 | Train Loss: 0.1552 Train Perp: 1.1679 Valid Loss: 2.5980 Valid Perp: 13.4372
+
+2023-06-20 15:46:24,750 - Valid Perp: 13.6954
+2023-06-20 15:46:24,751 - Epoch: 140, Steps: 28 | Train Loss: 0.1468 Train Perp: 1.1582 Valid Loss: 2.6171 Valid Perp: 13.6954
+
+2023-06-20 15:46:31,871 - Valid Perp: 15.0808
+2023-06-20 15:46:31,871 - Epoch: 141, Steps: 28 | Train Loss: 0.1435 Train Perp: 1.1543 Valid Loss: 2.7134 Valid Perp: 15.0808
+
+2023-06-20 15:46:39,180 - Valid Perp: 14.9466
+2023-06-20 15:46:39,180 - Epoch: 142, Steps: 28 | Train Loss: 0.1446 Train Perp: 1.1555 Valid Loss: 2.7045 Valid Perp: 14.9466
+
+2023-06-20 15:46:46,185 - Valid Perp: 14.9847
+2023-06-20 15:46:46,186 - Epoch: 143, Steps: 28 | Train Loss: 0.1400 Train Perp: 1.1503 Valid Loss: 2.7070 Valid Perp: 14.9847
+
+2023-06-20 15:46:53,344 - Valid Perp: 15.4675
+2023-06-20 15:46:53,345 - Epoch: 144, Steps: 28 | Train Loss: 0.1378 Train Perp: 1.1477 Valid Loss: 2.7387 Valid Perp: 15.4675
+
+2023-06-20 15:47:00,475 - Valid Perp: 13.0683
+2023-06-20 15:47:00,475 - Epoch: 145, Steps: 28 | Train Loss: 0.1313 Train Perp: 1.1403 Valid Loss: 2.5702 Valid Perp: 13.0683
+
+2023-06-20 15:47:07,345 - Valid Perp: 14.2797
+2023-06-20 15:47:07,347 - Epoch: 146, Steps: 28 | Train Loss: 0.1295 Train Perp: 1.1383 Valid Loss: 2.6588 Valid Perp: 14.2797
+
+2023-06-20 15:47:14,308 - Valid Perp: 14.2807
+2023-06-20 15:47:14,311 - Epoch: 147, Steps: 28 | Train Loss: 0.1254 Train Perp: 1.1336 Valid Loss: 2.6589 Valid Perp: 14.2807
+
+2023-06-20 15:47:21,305 - Valid Perp: 11.2100
+2023-06-20 15:47:21,306 - Epoch: 148, Steps: 28 | Train Loss: 0.1216 Train Perp: 1.1293 Valid Loss: 2.4168 Valid Perp: 11.2100
+
+2023-06-20 15:47:28,459 - Valid Perp: 13.3194
+2023-06-20 15:47:28,461 - Epoch: 149, Steps: 28 | Train Loss: 0.1247 Train Perp: 1.1329 Valid Loss: 2.5892 Valid Perp: 13.3194
+
+2023-06-20 15:47:35,477 - Valid Perp: 11.9576
+2023-06-20 15:47:35,479 - Epoch: 150, Steps: 28 | Train Loss: 0.1186 Train Perp: 1.1260 Valid Loss: 2.4814 Valid Perp: 11.9576
+
+2023-06-20 15:47:42,733 - Valid Perp: 14.3778
+2023-06-20 15:47:42,734 - Epoch: 151, Steps: 28 | Train Loss: 0.1173 Train Perp: 1.1245 Valid Loss: 2.6657 Valid Perp: 14.3778
+
+2023-06-20 15:47:49,956 - Valid Perp: 14.1759
+2023-06-20 15:47:49,958 - Epoch: 152, Steps: 28 | Train Loss: 0.1118 Train Perp: 1.1183 Valid Loss: 2.6515 Valid Perp: 14.1759
+
+2023-06-20 15:47:56,923 - Valid Perp: 12.7249
+2023-06-20 15:47:56,923 - Epoch: 153, Steps: 28 | Train Loss: 0.1106 Train Perp: 1.1169 Valid Loss: 2.5436 Valid Perp: 12.7249
+
+2023-06-20 15:48:04,143 - Valid Perp: 14.8805
+2023-06-20 15:48:04,145 - Epoch: 154, Steps: 28 | Train Loss: 0.1057 Train Perp: 1.1115 Valid Loss: 2.7001 Valid Perp: 14.8805
+
+2023-06-20 15:48:11,311 - Valid Perp: 14.9733
+2023-06-20 15:48:11,312 - Epoch: 155, Steps: 28 | Train Loss: 0.1058 Train Perp: 1.1116 Valid Loss: 2.7063 Valid Perp: 14.9733
+
+2023-06-20 15:48:18,653 - Valid Perp: 22.2206
+2023-06-20 15:48:18,653 - Epoch: 156, Steps: 28 | Train Loss: 0.1024 Train Perp: 1.1078 Valid Loss: 3.1010 Valid Perp: 22.2206
+
+2023-06-20 15:48:25,690 - Valid Perp: 17.0409
+2023-06-20 15:48:25,691 - Epoch: 157, Steps: 28 | Train Loss: 0.1034 Train Perp: 1.1089 Valid Loss: 2.8356 Valid Perp: 17.0409
+
+2023-06-20 15:48:32,707 - Valid Perp: 15.8458
+2023-06-20 15:48:32,707 - Epoch: 158, Steps: 28 | Train Loss: 0.0959 Train Perp: 1.1007 Valid Loss: 2.7629 Valid Perp: 15.8458
+
+2023-06-20 15:48:39,693 - Valid Perp: 16.7121
+2023-06-20 15:48:39,693 - Epoch: 159, Steps: 28 | Train Loss: 0.0940 Train Perp: 1.0986 Valid Loss: 2.8161 Valid Perp: 16.7121
+
+2023-06-20 15:48:46,623 - Valid Perp: 16.2141
+2023-06-20 15:48:46,624 - Epoch: 160, Steps: 28 | Train Loss: 0.0929 Train Perp: 1.0973 Valid Loss: 2.7859 Valid Perp: 16.2141
+
+2023-06-20 15:48:53,489 - Valid Perp: 20.1110
+2023-06-20 15:48:53,491 - Epoch: 161, Steps: 28 | Train Loss: 0.0932 Train Perp: 1.0976 Valid Loss: 3.0013 Valid Perp: 20.1110
+
+2023-06-20 15:49:00,619 - Valid Perp: 16.0534
+2023-06-20 15:49:00,620 - Epoch: 162, Steps: 28 | Train Loss: 0.0878 Train Perp: 1.0918 Valid Loss: 2.7759 Valid Perp: 16.0534
+
+2023-06-20 15:49:07,789 - Valid Perp: 20.2584
+2023-06-20 15:49:07,791 - Epoch: 163, Steps: 28 | Train Loss: 0.0858 Train Perp: 1.0895 Valid Loss: 3.0086 Valid Perp: 20.2584
+
+2023-06-20 15:49:14,789 - Valid Perp: 16.3666
+2023-06-20 15:49:14,792 - Epoch: 164, Steps: 28 | Train Loss: 0.0891 Train Perp: 1.0931 Valid Loss: 2.7952 Valid Perp: 16.3666
+
+2023-06-20 15:49:21,840 - Valid Perp: 21.6643
+2023-06-20 15:49:21,840 - Epoch: 165, Steps: 28 | Train Loss: 0.0873 Train Perp: 1.0913 Valid Loss: 3.0757 Valid Perp: 21.6643
+
+2023-06-20 15:49:29,039 - Valid Perp: 18.8727
+2023-06-20 15:49:29,041 - Epoch: 166, Steps: 28 | Train Loss: 0.0835 Train Perp: 1.0871 Valid Loss: 2.9377 Valid Perp: 18.8727
+
+2023-06-20 15:49:36,203 - Valid Perp: 15.0239
+2023-06-20 15:49:36,206 - Epoch: 167, Steps: 28 | Train Loss: 0.0813 Train Perp: 1.0847 Valid Loss: 2.7096 Valid Perp: 15.0239
+
+2023-06-20 15:49:43,256 - Valid Perp: 16.7479
+2023-06-20 15:49:43,259 - Epoch: 168, Steps: 28 | Train Loss: 0.0856 Train Perp: 1.0894 Valid Loss: 2.8183 Valid Perp: 16.7479
+
+2023-06-20 15:49:50,383 - Valid Perp: 20.1794
+2023-06-20 15:49:50,386 - Epoch: 169, Steps: 28 | Train Loss: 0.0817 Train Perp: 1.0851 Valid Loss: 3.0047 Valid Perp: 20.1794
+
+2023-06-20 15:49:57,524 - Valid Perp: 23.0520
+2023-06-20 15:49:57,525 - Epoch: 170, Steps: 28 | Train Loss: 0.0749 Train Perp: 1.0778 Valid Loss: 3.1378 Valid Perp: 23.0520
+
+2023-06-20 15:50:04,826 - Valid Perp: 19.3180
+2023-06-20 15:50:04,827 - Epoch: 171, Steps: 28 | Train Loss: 0.0755 Train Perp: 1.0785 Valid Loss: 2.9610 Valid Perp: 19.3180
+
+2023-06-20 15:50:12,113 - Valid Perp: 19.5884
+2023-06-20 15:50:12,114 - Epoch: 172, Steps: 28 | Train Loss: 0.0742 Train Perp: 1.0770 Valid Loss: 2.9749 Valid Perp: 19.5884
+
+2023-06-20 15:50:19,473 - Valid Perp: 15.8083
+2023-06-20 15:50:19,477 - Epoch: 173, Steps: 28 | Train Loss: 0.0762 Train Perp: 1.0792 Valid Loss: 2.7605 Valid Perp: 15.8083
+
+2023-06-20 15:50:26,809 - Valid Perp: 19.1729
+2023-06-20 15:50:26,809 - Epoch: 174, Steps: 28 | Train Loss: 0.0756 Train Perp: 1.0785 Valid Loss: 2.9535 Valid Perp: 19.1729
+
+2023-06-20 15:50:34,188 - Valid Perp: 21.9685
+2023-06-20 15:50:34,188 - Epoch: 175, Steps: 28 | Train Loss: 0.0706 Train Perp: 1.0731 Valid Loss: 3.0896 Valid Perp: 21.9685
+
+2023-06-20 15:50:41,419 - Valid Perp: 19.8605
+2023-06-20 15:50:41,420 - Epoch: 176, Steps: 28 | Train Loss: 0.0730 Train Perp: 1.0758 Valid Loss: 2.9887 Valid Perp: 19.8605
+
+2023-06-20 15:50:48,587 - Valid Perp: 19.9314
+2023-06-20 15:50:48,587 - Epoch: 177, Steps: 28 | Train Loss: 0.0683 Train Perp: 1.0706 Valid Loss: 2.9923 Valid Perp: 19.9314
+
+2023-06-20 15:50:55,804 - Valid Perp: 18.4600
+2023-06-20 15:50:55,805 - Epoch: 178, Steps: 28 | Train Loss: 0.0691 Train Perp: 1.0716 Valid Loss: 2.9156 Valid Perp: 18.4600
+
+2023-06-20 15:51:03,205 - Valid Perp: 18.8280
+2023-06-20 15:51:03,205 - Epoch: 179, Steps: 28 | Train Loss: 0.0695 Train Perp: 1.0720 Valid Loss: 2.9353 Valid Perp: 18.8280
+
+2023-06-20 15:51:10,335 - Valid Perp: 18.7145
+2023-06-20 15:51:10,335 - Epoch: 180, Steps: 28 | Train Loss: 0.0678 Train Perp: 1.0701 Valid Loss: 2.9293 Valid Perp: 18.7145
+
+2023-06-20 15:51:17,272 - Valid Perp: 20.9156
+2023-06-20 15:51:17,273 - Epoch: 181, Steps: 28 | Train Loss: 0.0674 Train Perp: 1.0697 Valid Loss: 3.0405 Valid Perp: 20.9156
+
+2023-06-20 15:51:24,658 - Valid Perp: 22.2330
+2023-06-20 15:51:24,658 - Epoch: 182, Steps: 28 | Train Loss: 0.0659 Train Perp: 1.0682 Valid Loss: 3.1016 Valid Perp: 22.2330
+
+2023-06-20 15:51:31,735 - Valid Perp: 20.0339
+2023-06-20 15:51:31,735 - Epoch: 183, Steps: 28 | Train Loss: 0.0709 Train Perp: 1.0734 Valid Loss: 2.9974 Valid Perp: 20.0339
+
+2023-06-20 15:51:38,705 - Valid Perp: 21.7607
+2023-06-20 15:51:38,706 - Epoch: 184, Steps: 28 | Train Loss: 0.0632 Train Perp: 1.0653 Valid Loss: 3.0801 Valid Perp: 21.7607
+
+2023-06-20 15:51:45,774 - Valid Perp: 20.1676
+2023-06-20 15:51:45,774 - Epoch: 185, Steps: 28 | Train Loss: 0.0674 Train Perp: 1.0697 Valid Loss: 3.0041 Valid Perp: 20.1676
+
+2023-06-20 15:51:52,894 - Valid Perp: 19.4263
+2023-06-20 15:51:52,894 - Epoch: 186, Steps: 28 | Train Loss: 0.0701 Train Perp: 1.0726 Valid Loss: 2.9666 Valid Perp: 19.4263
+
+2023-06-20 15:51:59,937 - Valid Perp: 21.9782
+2023-06-20 15:51:59,938 - Epoch: 187, Steps: 28 | Train Loss: 0.0657 Train Perp: 1.0679 Valid Loss: 3.0900 Valid Perp: 21.9782
+
+2023-06-20 15:52:07,224 - Valid Perp: 20.4693
+2023-06-20 15:52:07,224 - Epoch: 188, Steps: 28 | Train Loss: 0.0683 Train Perp: 1.0707 Valid Loss: 3.0189 Valid Perp: 20.4693
+
+2023-06-20 15:52:14,373 - Valid Perp: 22.1787
+2023-06-20 15:52:14,375 - Epoch: 189, Steps: 28 | Train Loss: 0.0640 Train Perp: 1.0661 Valid Loss: 3.0991 Valid Perp: 22.1787
+
+2023-06-20 15:52:21,446 - Valid Perp: 21.8519
+2023-06-20 15:52:21,446 - Epoch: 190, Steps: 28 | Train Loss: 0.0627 Train Perp: 1.0647 Valid Loss: 3.0843 Valid Perp: 21.8519
+
+2023-06-20 15:52:28,709 - Valid Perp: 21.1443
+2023-06-20 15:52:28,710 - Epoch: 191, Steps: 28 | Train Loss: 0.0628 Train Perp: 1.0648 Valid Loss: 3.0514 Valid Perp: 21.1443
+
+2023-06-20 15:52:35,725 - Valid Perp: 20.3039
+2023-06-20 15:52:35,728 - Epoch: 192, Steps: 28 | Train Loss: 0.0654 Train Perp: 1.0676 Valid Loss: 3.0108 Valid Perp: 20.3039
+
+2023-06-20 15:52:42,881 - Valid Perp: 20.4082
+2023-06-20 15:52:42,882 - Epoch: 193, Steps: 28 | Train Loss: 0.0655 Train Perp: 1.0677 Valid Loss: 3.0159 Valid Perp: 20.4082
+
+2023-06-20 15:52:49,853 - Valid Perp: 21.4385
+2023-06-20 15:52:49,853 - Epoch: 194, Steps: 28 | Train Loss: 0.0634 Train Perp: 1.0655 Valid Loss: 3.0652 Valid Perp: 21.4385
+
+2023-06-20 15:52:56,942 - Valid Perp: 21.8357
+2023-06-20 15:52:56,943 - Epoch: 195, Steps: 28 | Train Loss: 0.0627 Train Perp: 1.0647 Valid Loss: 3.0835 Valid Perp: 21.8357
+
+2023-06-20 15:53:04,019 - Valid Perp: 21.9943
+2023-06-20 15:53:04,020 - Epoch: 196, Steps: 28 | Train Loss: 0.0624 Train Perp: 1.0644 Valid Loss: 3.0908 Valid Perp: 21.9943
+
+2023-06-20 15:53:11,377 - Valid Perp: 22.1544
+2023-06-20 15:53:11,380 - Epoch: 197, Steps: 28 | Train Loss: 0.0625 Train Perp: 1.0645 Valid Loss: 3.0980 Valid Perp: 22.1544
+
+2023-06-20 15:53:18,569 - Valid Perp: 22.2445
+2023-06-20 15:53:18,569 - Epoch: 198, Steps: 28 | Train Loss: 0.0619 Train Perp: 1.0639 Valid Loss: 3.1021 Valid Perp: 22.2445
+
+2023-06-20 15:53:25,553 - Valid Perp: 22.1944
+2023-06-20 15:53:25,554 - Epoch: 199, Steps: 28 | Train Loss: 0.0623 Train Perp: 1.0643 Valid Loss: 3.0998 Valid Perp: 22.1944
+
+2023-06-20 15:53:32,862 - Valid Perp: 22.1759
+2023-06-20 15:53:32,862 - Epoch: 200, Steps: 28 | Train Loss: 0.0608 Train Perp: 1.0627 Valid Loss: 3.0990 Valid Perp: 22.1759
+
+2023-06-20 15:53:35,033 - Test Perp: 3.6372, Test Rec: 0.4000
+

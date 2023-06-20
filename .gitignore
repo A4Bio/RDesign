@@ -1,0 +1,9 @@
+__pycache__
+.vscode
+.ipynb_checkpoints
+data/
+results/
+tmp/
+wandb/
+*/test.ipynb
+fasta_pred/
