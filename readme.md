@@ -9,7 +9,7 @@ While artificial intelligence has made remarkable strides in revealing the relat
 In this study, we aim to systematically construct a data-driven RNA design pipeline. We crafted a large, well-curated benchmark dataset and designed a comprehensive structural modeling approach to represent the complex RNA tertiary structure. More importantly, we proposed a hierarchical data-efficient representation learning framework that learns structural representations through contrastive learning at both cluster-level and sample-level to fully leverage the limited data. Extensive experiments demonstrate the effectiveness of our proposed method, providing a reliable baseline for future RNA design tasks.
 
 <p align="center">
-  <img src='./assets/visualization_example.png' width="100%">
+  <img src='https://github.com/A4Bio/RDesign/assets/34480960/ef6029bb-95e1-4ea9-a965-fefb68b2e102' width="100%">
 </p>
 
 
