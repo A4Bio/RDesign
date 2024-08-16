@@ -1,6 +1,7 @@
 # RDesign: Hierarchical Data-efficient Representation Learning for Tertiary Structure-based RNA Design
 
-![GitHub stars](https://img.shields.io/github/stars/A4Bio/RDesign)  ![GitHub forks](https://img.shields.io/github/forks/A4Bio/RDesign?color=green)
+![GitHub stars](https://img.shields.io/github/stars/A4Bio/RDesign)  ![GitHub forks](https://img.shields.io/github/forks/A4Bio/RDesign?color=green) 
+<a href="https://colab.research.google.com/drive/1mE3kYaXFvAnsc_zULYm5InO_kxlQBKZ3#scrollTo=3aJDuVNJFic2" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 **[2024-08-15] Update:** Thank you all for the interests and inquries about our paper, we are sorry that we haven't provided detailed documentation and demo of the paper for such a long time. Now, it has been solved. Feel free to check out our updated documentation and colab! :)   
 ## Introduction
