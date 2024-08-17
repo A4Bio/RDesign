@@ -45,7 +45,7 @@ class Exp:
         logging.basicConfig(level=logging.INFO, filename=osp.join(self.path, 'log.log'),
                             filemode='a', format='%(asctime)s - %(message)s')
         # prepare data, only using self._get_data() for training, otherwise just comment it
-        # self._get_data()
+        self._get_data()
         # build the method
         self._build_method()
 
