@@ -62,7 +62,7 @@ class Exp:
             steps_per_epoch = len(self.train_loader)
         else:
             steps_per_epoch = 1
-        self.method = method_maps[self.args.method](self.args, self.device, steps_per_epoch)
+        self.method = RDesign(self.args, self.device, steps_per_epoch)
 
     def _get_data(self):
         if self.args.load_full_data:
