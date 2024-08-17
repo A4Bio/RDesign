@@ -49,14 +49,26 @@ class Exp:
         # build the method
         self._build_method()
 
+    # def _build_method(self):
+    #     steps_per_epoch = 1
+    #     # If training, uncomment next line
+    #     # steps_per_epoch = len(self.train_loader)
+    #     self.method = RDesign(self.args, self.device, steps_per_epoch)
+
+    # def _get_data(self):
+    #     self.train_loader, self.valid_loader, self.test_loader = get_dataset(self.config)
     def _build_method(self):
-        steps_per_epoch = 1
-        # If training, uncomment next line
-        # steps_per_epoch = len(self.train_loader)
-        self.method = RDesign(self.args, self.device, steps_per_epoch)
+        if self.args.load_full_data:
+            steps_per_epoch = len(self.train_loader)
+        else:
+            steps_per_epoch = 1
+        self.method = method_maps[self.args.method](self.args, self.device, steps_per_epoch)
 
     def _get_data(self):
-        self.train_loader, self.valid_loader, self.test_loader = get_dataset(self.config)
+        if self.args.load_full_data:
+            self.train_loader, self.valid_loader, self.test_loader = get_dataset(self.config)
+        else:
+            self.test_loader = get_dataset(self.config)
 
     def _save(self, name=''):
         torch.save(self.method.model.state_dict(), osp.join(self.checkpoints_path, name + '.pth'))
