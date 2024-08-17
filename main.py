@@ -44,13 +44,15 @@ class Exp:
             logging.root.removeHandler(handler)
         logging.basicConfig(level=logging.INFO, filename=osp.join(self.path, 'log.log'),
                             filemode='a', format='%(asctime)s - %(message)s')
-        # prepare data
-        self._get_data()
+        # prepare data, only using self._get_data() for training, otherwise just comment it
+        # self._get_data()
         # build the method
         self._build_method()
 
     def _build_method(self):
-        steps_per_epoch = len(self.train_loader)
+        steps_per_epoch = 1
+        # If training, uncomment next line
+        # steps_per_epoch = len(self.train_loader)
         self.method = RDesign(self.args, self.device, steps_per_epoch)
 
     def _get_data(self):
