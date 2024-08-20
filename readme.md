@@ -47,7 +47,7 @@ conda activate RDesign
 # If you want to see the details inside our dataset, you could use Pickle package from Python
 import _pickle as cPickle
 train_data = cPickle.load(open('data/train_data.pt', 'rb'))
-print(train_data.keys)
+print(train_data[0].keys())
 
 #For external datasets, loading data could be in this way:
 from API.rpuzzles_dataset import RPuzzlesDataset
