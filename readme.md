@@ -3,6 +3,9 @@
 ![GitHub stars](https://img.shields.io/github/stars/A4Bio/RDesign)  ![GitHub forks](https://img.shields.io/github/forks/A4Bio/RDesign?color=green) 
 <a href="https://colab.research.google.com/drive/1mE3kYaXFvAnsc_zULYm5InO_kxlQBKZ3#scrollTo=3aJDuVNJFic2" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+**[2024-08-21] News:**We provided a comprehensive evaluation system for RNA sequence design and prediction named **R3Design**. APIs and Colab demos are also provided. Feel free to check out our new [repo](https://github.com/A4Bio/R3Design)!
+
+<a href="https://colab.research.google.com/drive/1tAoUHY6w8WeweByY7TFwIyXPyGXA4lMW#scrollTo=gzAKWozrYdag" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 **[2024-08-15] Update:** Thank you all for the interests and inquries about our paper, we are sorry that we haven't provided detailed documentation and demo of the paper for such a long time. Now, it has been solved. Feel free to check out our updated documentation and colab! :)   
 ## Introduction
 
